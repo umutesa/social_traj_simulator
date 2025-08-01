@@ -23,7 +23,9 @@ $$
 ####  Repulsive Force
 Pedestrians exert a **repulsive force** on each other that increases exponentially as they get closer:
 
-$$\vec{f}_{ij}^{\,\text{rep}} = A_i \exp\left(\frac{r_{ij} - d_{ij}}{B_i}\right) \vec{n}_{ij}$$
+$$
+\vec{f}_{ij}^{\,\text{rep}} = A_i \exp\left(\frac{r_{ij} - d_{ij}}{B_i}\right) \vec{n}_{ij}
+$$
 
 - $$\( A_i \), \( B_i \)$$: interaction strength and range  
 - $$\( r_{ij} \)$$: sum of radii of pedestrians *i* and *j*  
