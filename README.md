@@ -6,7 +6,7 @@ This tool implements the **Social Force Model** developed by **Dirk Helbing** at
 
 ###  Forces Defined in the Model
 
-#### 🚶‍♂ Driving Force
+####  Driving Force
 The **driving force** propels each pedestrian toward their intended destination. It is defined as:
 
 $$
@@ -32,7 +32,7 @@ $$
 
 
 
-### 📚 Reference
+###  Reference
 
 Helbing, D., & Molnár, P. (1995). *Social force model for pedestrian dynamics*. Physical Review E, 51(5), 4282.  
 [Link to paper](https://doi.org/10.1103/PhysRevE.51.4282)
