@@ -4,6 +4,8 @@
 
 This tool implements the **Social Force Model** developed by **Dirk Helbing** at **ETH Zurich**, which simulates pedestrian dynamics by modeling individuals as particles influenced by various forces.
 
+<img width="825" height="604" alt="download" src="https://github.com/user-attachments/assets/3f09192c-c3af-4338-8274-96f3a702e758" />
+
 ###  Forces Defined in the Model
 
 ####  Driving Force
@@ -13,10 +15,10 @@ $$
 \vec{f}_i^{\,\text{drive}} = \frac{v_i^0 \vec{e}_i - \vec{v}_i}{\tau}
 $$
 
-- \( v_i^0 \): desired speed of pedestrian *i*  
-- \( \vec{e}_i \): desired direction of movement  
-- \( \vec{v}_i \): current velocity  
-- \( \tau \): relaxation time (how quickly the pedestrian adjusts their velocity)
+- $$\( v_i^0 \)$$: desired speed of pedestrian *i*  
+- $$\( \vec{e}_i \)$$: desired direction of movement  
+- $$\( \vec{v}_i \)$$: current velocity  
+- $$\( \tau \)$$: relaxation time (how quickly the pedestrian adjusts their velocity)
 
 ####  Repulsive Force
 Pedestrians exert a **repulsive force** on each other that increases exponentially as they get closer:
@@ -25,10 +27,10 @@ $$
 \vec{f}_{ij}^{\,\text{rep}} = A_i \exp\left(\frac{r_{ij} - d_{ij}}{B_i}\right) \vec{n}_{ij}
 $$
 
-- \( A_i \), \( B_i \): interaction strength and range  
-- \( r_{ij} \): sum of radii of pedestrians *i* and *j*  
-- \( d_{ij} \): actual distance between them  
-- \( \vec{n}_{ij} \): normalized vector from *j* to *i*
+- $$\( A_i \), \( B_i \)$$: interaction strength and range  
+- $$\( r_{ij} \)$$: sum of radii of pedestrians *i* and *j*  
+- $$\( d_{ij} \)$$: actual distance between them  
+- $$\( \vec{n}_{ij} \)$$: normalized vector from *j* to *i*
 
 
 
